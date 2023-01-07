@@ -40,6 +40,13 @@ __version__ = '2.1.4b1'
 #########################################################################
 # SPEED TEST LINE
 # DIABLO
+
+print('')
+print('')
+print('SPEED TEST')
+print('')
+print('')
+
 class FakeShutdownEvent(object):
     """Class to fake a threading.Event.isSet so that users of this module
     are not required to register their own threading.Event()
